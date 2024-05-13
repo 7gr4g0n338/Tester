@@ -1,5 +1,5 @@
 # Who is Software Tester?
-5-W question and various advice:
+5-W question and various advices:
 + what is the job goal?
 + what is the jobs of ST will be done in the SDLC process?
 + what skill does a ST must have?
@@ -20,6 +20,29 @@
   + Load testing
   + User acceptance testing (UAT)
   + Scalability testing
+
+4. Overall picture
+Levels of application quality assurance: Quality assurance - QA, Quality Control - QC and Tesing.
+![image](https://github.com/7gr4g0n338/Tester/assets/95563870/1a930c3e-9ee4-44bb-b313-1430d6ed1d67)
+Có 3 quá trình gồm QA, QC, Testing làm việc cùng nhau để đảm bảo chất lượng tổng thể của phần mềm và cung cấp sản phẩm đáng tin cậy tới các người dùng cuối.
+
+a. QA - Quality Assurance: xảy ra ở `tất cả các quá trình của software life cycle` và bao gồm `thiết lập các thủ tục` mà bao phủ tất cả các trạng giai đoạn từ giai đoạn requirement analyze tới tesing, release và post-release maintenance.
+
+b. QC - Quality Control: là 1 phần của quá trình QA chịu trách nhiệm cho việc `phân tích kiểm tra các kết quả, xác minh và sửa lỗi`. QC bắt đầu trong suốt giai đoạn `tesing phase của software life cycle` và `tập trung vào xác minh 1 sản phẩm cụ thể`. QC bao gồm nhiều quy trình như `code analysis, technical reviews, design analysis, testing ...`.
+
+Ví dụ các tiến trình của QC:
+=> Mục đích chính của QC là đảm bảo các sản phẩm được phát triển đáp ứng `mức độ chất lượng được công bố và yêu cầu của khách hàng`.
+  + Kiểm tra xem sản phẩm có tuân thủ với các requirement được thiết lập.
+  + Xác minh việc tuân thủ của sản phẩm với các tiêu chuẩn chất lượng được thiết lập.
+  + Đánh giá xem liệu sản phẩm có sẵn sàng để release.
+  + Xác định các khiếm khuyết nghiêm trọng.
+
+c. Testing bao gồm các hành động sau:
++ Thực thi các test scenarios để xác minh các chức năng của ứng dụng.
++ Xác định các khiếm khuyết và ghi chúng vào giải pháp.
++ Kiểm tra hiệu năng của ứng dụng dưới nhiều điều kiện.
++ Đánh giá độ tin cậy và tính ổn định của sản phẩm.
+
 
 ## II. How to ST join a SDLC development software process?
 
@@ -65,6 +88,8 @@ ví dụ: với chức năng của nút bấm add to cart không hoạt động,
   + Nếu phát hiện 1 khiếm khuyết nghiêm trọng mà cản trở việc hoàn thành dự án thì ST chủ động thảo luận vấn đề này với development team và giúp ưu tiên fix nó.
 
 
+## III. What skill does a ST must have?
+1. 
 
 
 ## Some advices of experience ST:
