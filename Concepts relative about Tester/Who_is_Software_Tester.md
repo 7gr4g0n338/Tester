@@ -1,4 +1,12 @@
 # Who is Software Tester?
+5 question and various advice:
++ what is the job goal?
++ like ST, what it will do with the SDLC process?
++ what skill does a ST must have?
++ what document does a ST need read?
++ what tool does s ST need study?
++ advices from experience ST.
+
 
 ## I. Software Tester(ST)
 1. là 1 cá nhân mà thực hiện `kiểm tra phần mềm như bugs, errors, khiếm khuyết hoặc bất kì các vấn đề nào` mà có thể ẢNH HƯỞNG TỚI HIỆU SUẤT của phần mềm tính toán hoặc của 1 ứng dụng.
@@ -33,7 +41,7 @@ ví dụ: nếu phát triển 1 ứng dụng cửa hàng online thì ST cần đ
 
 2. Test Planning - ứng với giai đoạn Testing in SDLC
 => Mục đích test plan để định nghĩa các `chiến lược và hướng tiếp cận` cho việc kiểm tra:
-  + xác định các loại kiểm tra sẽ được thực.
+  + xác định các loại kiểm tra sẽ được thực hiện.
   + các khía cạnh nào của ứng dụng sẽ được verify.
   + thiết lập các tiêu chí để hoàn thành kiểm tra thành công.
 
