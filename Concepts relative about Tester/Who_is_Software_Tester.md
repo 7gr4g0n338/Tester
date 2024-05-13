@@ -1,7 +1,7 @@
 # Who is Software Tester?
-5 question and various advice:
+5-W question and various advice:
 + what is the job goal?
-+ like ST, what it will do with the SDLC process?
++ what is the jobs of ST will be done in the SDLC process?
 + what skill does a ST must have?
 + what document does a ST need read?
 + what tool does s ST need study?
