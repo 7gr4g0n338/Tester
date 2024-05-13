@@ -9,11 +9,12 @@
 
 
 ## I. Software Tester(ST)
-### 1. là 1 cá nhân mà thực hiện `kiểm tra phần mềm như bugs, errors, khiếm khuyết hoặc bất kì các vấn đề nào` mà có thể ẢNH HƯỞNG TỚI HIỆU SUẤT của phần mềm tính toán hoặc của 1 ứng dụng.
+### 1. Define
++ là 1 cá nhân mà thực hiện `kiểm tra phần mềm như bugs, errors, khiếm khuyết hoặc bất kì các vấn đề nào` mà có thể ẢNH HƯỞNG TỚI HIỆU SUẤT của phần mềm tính toán hoặc của 1 ứng dụng.
 
-### 2. ST là 1 phần của team phát triển phần mềm và thực hiện kiểm tra các functions or non-functions của phần mềm sử dụng các kĩ thuật kiểm tra phần mềm auto hoặc manual.
++ là 1 phần của team phát triển phần mềm và thực hiện kiểm tra các functions or non-functions của phần mềm sử dụng các kĩ thuật kiểm tra phần mềm auto hoặc manual.
 
-### 3. 1 số các kĩ thuật mà ST có kinh nghiệm bao gồm:
+### 2. Một số các kĩ thuật mà ST có kinh nghiệm bao gồm:
   + Unit testing
   + System testing
   + Black box testing
@@ -21,14 +22,16 @@
   + User acceptance testing (UAT)
   + Scalability testing
 
-### 4. Overall picture
+### 3. Overall picture
    Levels of application quality assurance: Quality assurance - QA, Quality Control - QC and Tesing.
 ![image](https://github.com/7gr4g0n338/Tester/assets/95563870/1a930c3e-9ee4-44bb-b313-1430d6ed1d67)
 Có 3 quá trình gồm QA, QC, Testing làm việc cùng nhau để đảm bảo chất lượng tổng thể của phần mềm và cung cấp sản phẩm đáng tin cậy tới các người dùng cuối.
 
-#### a. QA - Quality Assurance: xảy ra ở `tất cả các quá trình của software life cycle` và bao gồm `thiết lập các thủ tục` mà bao phủ tất cả các trạng giai đoạn từ giai đoạn requirement analyze tới tesing, release và post-release maintenance.
+#### a. QA - Quality Assurance
+* xảy ra ở `tất cả các quá trình của software life cycle` và bao gồm `thiết lập các thủ tục` mà bao phủ tất cả các trạng giai đoạn từ giai đoạn requirement analyze tới tesing, release và post-release maintenance.
 
-#### b. QC - Quality Control: là 1 phần của quá trình QA chịu trách nhiệm cho việc `phân tích kiểm tra các kết quả, xác minh và sửa lỗi`. QC bắt đầu trong suốt giai đoạn `tesing phase của software life cycle` và `tập trung vào xác minh 1 sản phẩm cụ thể`. QC bao gồm nhiều quy trình như `code analysis, technical reviews, design analysis, testing ...`.
+#### b. QC - Quality Control
+* là 1 phần của quá trình QA chịu trách nhiệm cho việc `phân tích kiểm tra các kết quả, xác minh và sửa lỗi`. QC bắt đầu trong suốt giai đoạn `tesing phase của software life cycle` và `tập trung vào xác minh 1 sản phẩm cụ thể`. QC bao gồm nhiều quy trình như `code analysis, technical reviews, design analysis, testing ...`.
 
 Ví dụ các tiến trình của QC:
 => Mục đích chính của QC là đảm bảo các sản phẩm được phát triển đáp ứng `mức độ chất lượng được công bố và yêu cầu của khách hàng`.
@@ -37,7 +40,7 @@ Ví dụ các tiến trình của QC:
   + Đánh giá xem liệu sản phẩm có sẵn sàng để release.
   + Xác định các khiếm khuyết nghiêm trọng.
 
-#### c. Testing bao gồm các hành động sau:
+#### c. Testing
 + Thực thi các test scenarios để xác minh các chức năng của ứng dụng.
 + Xác định các khiếm khuyết và ghi chúng vào giải pháp.
 + Kiểm tra hiệu năng của ứng dụng dưới nhiều điều kiện.
