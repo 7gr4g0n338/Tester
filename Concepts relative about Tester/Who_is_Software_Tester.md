@@ -14,15 +14,7 @@
 
 + là 1 phần của team phát triển phần mềm và thực hiện kiểm tra các functions or non-functions của phần mềm sử dụng các kĩ thuật kiểm tra phần mềm auto hoặc manual.
 
-### 2. Một số các kĩ thuật mà ST có kinh nghiệm bao gồm:
-  + Unit testing
-  + System testing
-  + Black box testing
-  + Load testing
-  + User acceptance testing (UAT)
-  + Scalability testing
-
-### 3. Overall picture
+### 2. Overall picture
    Levels of application quality assurance: Quality assurance - QA, Quality Control - QC and Tesing.
 ![image](https://github.com/7gr4g0n338/Tester/assets/95563870/1a930c3e-9ee4-44bb-b313-1430d6ed1d67)
 Có 3 quá trình gồm QA, QC, Testing làm việc cùng nhau để đảm bảo chất lượng tổng thể của phần mềm và cung cấp sản phẩm đáng tin cậy tới các người dùng cuối.
@@ -46,6 +38,12 @@ Ví dụ các tiến trình của QC:
 + Kiểm tra hiệu năng của ứng dụng dưới nhiều điều kiện.
 + Đánh giá độ tin cậy và tính ổn định của sản phẩm.
 
+### Teamwork with other members of the development team
++ System Analyst - SA: a translator between the client's requirements and the developers.
++ Business Analyst - BA: uses business analysis methods to investigate business needs, identify business problems, and propose solutions to address them.
++ Product Owner - PO: responsible for envisioning the final product and understanding its value for users.
++ Developer: who masterfully create software by code sources.
++ Project Manager: The tester collaborates with project managers to understand the product requirements and ensure its quality by testing the functionality and fixing errors.
 
 ## II. How to ST join a SDLC development software process?
 
