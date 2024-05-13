@@ -91,26 +91,48 @@ ví dụ: với chức năng của nút bấm add to cart không hoạt động,
 
 ## III. What skill does a ST must have?
 ### 1. Automation Testing
-=> Mục đích: thời gian phản hồi nhanh, giảm thiểu chi phí doanh nghiệp, nâng cao độ chính xác và loại bỏ lỗi của con người.
-các công cụ tự động:
-+ Selenium
-+ Apache Jmeter
-+ RFT
-+ Appium
-+ Perfecto
-+ Katalon Studio
+=> Mục đích: thời gian phản hồi nhanh, giảm thiểu các tác vụ lặp đi lặp lại, nâng cao độ chính xác và loại bỏ lỗi của con người.
++ các công cụ tự động: Selenium, Apache Jmeter, RFT, Appium, Perfecto, Katalon Studio.
++ Các automation tester phải quen thuộc với:
+  * ngôn ngữ lập trình được dùng để phát triển ứng dụng
+  * các trình duyệt và các yêu cầu thiết bị
+  * APIS hoặc bẩt kì dịch vụ web kết nối tới application
+  * database được sử dụng để lưu trữ backend
+  * làm việc với tất cả các module và tính năng trong application
+  * xác định các khu vực mà không thể automatic testing mà cần phải manual testing
+  * lên kế hoạch thời gian thực thi
+  * liệu có bất kì khiếm khuyết nào trong lần cuối phát hành hoặc được mong đợi sửa trong lần release này không?
 
 ### 2. Proficiency in Programming Languages
+Có kiến thức lập trình giúp nâng cao kỹ năng kiểm tra tự động và giao tiếp hiệu quả với developer.
 
 ### 3. Knowledge of Test Management Tools
+=> Mục đích: giúp tránh các lỗi bắt gặp trong quá trình sản xuất.
+các công cụ quản lí kiểm thử:
++ TestRail
++ TestPad
++ QADeputy
++ TestLink
 
 ### 4. Knowledge of SDLC and Agile Methodology
+SDLC gồm 1 số phương thức phát triển như: Scrum, Kanban, Waterfall.
 
-### 5. Analytical Skills
+Agile methodology là 1 phương thức quản lí dự án nhằm chia các bước nhỏ hơn nhằm thúc đẩy sự linh hoạt và hợp tác trong kiểm tra phần mềm.
+các công cụ Agile testing:
++ Selenium web driver
++ JunoOne
++ JIRA
++ Appium
+
+### 5. Analytical Skills Critical 
+Giúp các ST chia 1 hệ thống phức tạp thành các phần nhỏ, quản lí các thành phần, hiểu rõ code và xác định các rủi ro tiềm năng. Giúp việc thiết kế các test case tốt hơn và nâng cao toàn bộ năng suất của hệ thống.
 
 ### 6. Excellent Communication Skills
+giao tiếp rõ ràng và mạch lạc để khảo sát các developer, PM, BA và đồng nhất các ý tưởng, ý kiến.
 
 ### 7. Project management skills
+
+
 
 ## Some advices of experience ST:
 + build good relationship with developer to aske them: họ đang cố gắng làm gì, hiểu các bước và đặt thêm cho họ các câu hỏi => giúp fix bug 1 cách nhanh chóng.
