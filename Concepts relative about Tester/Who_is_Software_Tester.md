@@ -38,7 +38,7 @@ Ví dụ các tiến trình của QC:
 + Kiểm tra hiệu năng của ứng dụng dưới nhiều điều kiện.
 + Đánh giá độ tin cậy và tính ổn định của sản phẩm.
 
-### Teamwork with other members of the development team
+### 3. Teamwork with other members of the development team
 + System Analyst - SA: a translator between the client's requirements and the developers.
 + Business Analyst - BA: uses business analysis methods to investigate business needs, identify business problems, and propose solutions to address them.
 + Product Owner - PO: responsible for envisioning the final product and understanding its value for users.
@@ -90,8 +90,27 @@ ví dụ: với chức năng của nút bấm add to cart không hoạt động,
 
 
 ## III. What skill does a ST must have?
-### 1. 
+### 1. Automation Testing
+=> Mục đích: thời gian phản hồi nhanh, giảm thiểu chi phí doanh nghiệp, nâng cao độ chính xác và loại bỏ lỗi của con người.
+các công cụ tự động:
++ Selenium
++ Apache Jmeter
++ RFT
++ Appium
++ Perfecto
++ Katalon Studio
 
+### 2. Proficiency in Programming Languages
+
+### 3. Knowledge of Test Management Tools
+
+### 4. Knowledge of SDLC and Agile Methodology
+
+### 5. Analytical Skills
+
+### 6. Excellent Communication Skills
+
+### 7. Project management skills
 
 ## Some advices of experience ST:
 + build good relationship with developer to aske them: họ đang cố gắng làm gì, hiểu các bước và đặt thêm cho họ các câu hỏi => giúp fix bug 1 cách nhanh chóng.
