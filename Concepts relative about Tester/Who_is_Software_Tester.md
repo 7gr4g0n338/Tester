@@ -22,6 +22,7 @@
   + Scalability testing
 
 4. Overall picture
+   
 Levels of application quality assurance: Quality assurance - QA, Quality Control - QC and Tesing.
 ![image](https://github.com/7gr4g0n338/Tester/assets/95563870/1a930c3e-9ee4-44bb-b313-1430d6ed1d67)
 Có 3 quá trình gồm QA, QC, Testing làm việc cùng nhau để đảm bảo chất lượng tổng thể của phần mềm và cung cấp sản phẩm đáng tin cậy tới các người dùng cuối.
