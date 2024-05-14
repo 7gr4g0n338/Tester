@@ -57,6 +57,7 @@ Chi tiết:
 
 Các việc mà ST cần làm trong các giai đoạn của SDLC ( các giai đoạn SDLC gồm: Requirement Analysis - Design - Development - Testing - Maintenance):
 
+referrence: https://hyperskill.org/learn/step/31958
 ### 1. Requirement Analysis - ứng với giai đoạn initial stage of development in SDLC.
 => mục đích để xác định các `mâu thuẫn và sự xung đột tiềm năng` trong các yêu cầu để tránh các hiểu lầm về sau:
   + đọc tài liệu, thông số kĩ thuật và giao tiếp với development team để hiểu những gì cần để triển khai.
