@@ -100,7 +100,7 @@ ví dụ: với chức năng của nút bấm add to cart không hoạt động,
   * database được sử dụng để lưu trữ backend
   * làm việc với tất cả các module và tính năng trong application
   * xác định các khu vực mà không thể automatic testing mà cần phải manual testing
-  * lên kế hoạch thời gian thực thi
+  * lên kế hoạch quản lí thời gian hiệu quả
   * liệu có bất kì khiếm khuyết nào trong lần cuối phát hành hoặc được mong đợi sửa trong lần release này không?
 
 ### 2. Proficiency in Programming Languages
@@ -132,7 +132,19 @@ giao tiếp rõ ràng và mạch lạc để khảo sát các developer, PM, BA 
 
 ### 7. Project management skills
 
+## IV. What document does a ST need read?
+Tầm quan trọng của tài liệu cho các tester và việc kiểm tra:
++ là 1 phần quan trọng trong việc định nghĩa của ta về sự hoàn thành công việc.
++ loại bỏ những hiểu lầm và sự bối dối giữa các testing phase
++ giúp tiết kiệm thời gian bằng sự rõ ràng của các task cần hoàn thành
++ ghi lại được các sự thay đổi đã làm
++ các thành viên mới của team có thể tăng tốc độ test với từng giai đoạn
++ cung cấp tài liệu khi được khách hàng yêu cầu
 
+### 1. What documentation do QA teams use?
+* Test case:
+   * là 1 bản mô tả chi tiết chính xác các bước mà 1 tester cần để thông qua đánh giá các function của 1 tính năng cụ thể. Ví dụ như các tiêu chí để đạt được yêu cầu pass. 
+   * là 1 bản chuẩn hóa cho các tester khác nhau tiến hành kiểm tra cùng phần mềm.
 
 ## Some advices of experience ST:
 + build good relationship with developer to aske them: họ đang cố gắng làm gì, hiểu các bước và đặt thêm cho họ các câu hỏi => giúp fix bug 1 cách nhanh chóng.
