@@ -147,6 +147,26 @@ Tầm quan trọng của tài liệu cho các tester và việc kiểm tra:
    * là 1 bản mô tả chi tiết chính xác các bước mà 1 tester cần để thông qua đánh giá các function của 1 tính năng cụ thể. Ví dụ như các tiêu chí để đạt được yêu cầu pass. 
    * là 1 bản chuẩn hóa cho các tester khác nhau tiến hành kiểm tra cùng phần mềm.
 
+* Test plan:
+   * là việc tổng quát hóa tất cả các hành động liên quan tới giai đoạn kiểm thử: bao gồm các scope kiểm thử, kế hoạch, các tài nguyên để cung cấp cái nhìn high-level cho việc tiến hành kiểm thử.
+
+* Test scenario:
+   * làm rõ các phương thức kiểm thử phần mềm sẽ được sử dụng để đưa ra các test case phù hợp. Ví dụ: xác định việc làm như thế nào mà người dùng có thể lạm dụng hệ thông và lên kế hoạch test đầu ra phù hợp.
+
+* Test report:
+   * là bản ghi trạng thái của mỗi test case đã được chạy, do đó ta có thể quay trở lại đầu ra của mỗi lần test >< defect report ghi lại các tính năng phần mềm bị lỗi.
+ 
+* Checklist:
+   *  tương tự/thay thế cho test case, chúng cung cấp 1 danh sách các tính năng phần mềm mà các tester cần phân tích, cùng với mô tả về chức năng và đầu ra của việc kiểm thử.
+
+* Bug report:
+   * là bản ghi của bất kì lỗi nào được phát hiện trong quá trình kiểm thử. Nó ghi rõ chi tiết các ảnh hưởng của bug lên hệ thống và gợi ý ưu tiên fix chúng.
+ 
+* Requirements:
+   * là 1 bản mô tả đầy đủ các chức năng và tính năng của phần mềm được xây dựng để đảm bảo rằng tất cả các team nắm được thông tin đầy đủ về product.
+
+
+
 ## Some advices of experience ST:
 + build good relationship with developer to aske them: họ đang cố gắng làm gì, hiểu các bước và đặt thêm cho họ các câu hỏi => giúp fix bug 1 cách nhanh chóng.
 + xây dựng 1 sở thích chung để upgrade mối quan hệ, từ đó có sự tin tưởng và gắn kết trong cả công việc và cuộc sống.
