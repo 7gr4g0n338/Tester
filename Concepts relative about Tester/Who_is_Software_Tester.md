@@ -129,7 +129,14 @@ các công cụ Agile testing:
 Giúp các ST chia 1 hệ thống phức tạp thành các phần nhỏ, quản lí các thành phần, hiểu rõ code và xác định các rủi ro tiềm năng. Giúp việc thiết kế các test case tốt hơn và nâng cao toàn bộ năng suất của hệ thống.
 
 ### 6. Excellent Communication Skills
-giao tiếp rõ ràng và mạch lạc để khảo sát các developer, PM, BA và đồng nhất các ý tưởng, ý kiến.
+* giao tiếp rõ ràng và mạch lạc để khảo sát các developer, PM, BA và đồng nhất các ý tưởng, ý kiến.
+* Làm rõ các điểm về khía cạnh chất lượng:
+   * Clarify quality objective and methods.
+   * Ensure clarity about tasks and consistency of performance.
+   * Ensure internal coordination in client work.
+   * Provide feedback on preventive actions.
+   * Provide feedback on your planning cycle.
+   * Create objective evidence of your quality management system’s performance.
 
 ### 7. Project management skills
 
@@ -142,7 +149,7 @@ Tầm quan trọng của tài liệu cho các tester và việc kiểm tra:
 + các thành viên mới của team có thể tăng tốc độ test với từng giai đoạn
 + cung cấp tài liệu khi được khách hàng yêu cầu
 
-### 1. What documentation do QA teams use?
+### Documentations was used by QA teams.
 * Test case:
    * là 1 bản mô tả chi tiết chính xác các bước mà 1 tester cần để thông qua đánh giá các function của 1 tính năng cụ thể. Ví dụ như các tiêu chí để đạt được yêu cầu pass. 
    * là 1 bản chuẩn hóa cho các tester khác nhau tiến hành kiểm tra cùng phần mềm.
@@ -150,7 +157,7 @@ Tầm quan trọng của tài liệu cho các tester và việc kiểm tra:
 * Test plan:
    * là việc tổng quát hóa tất cả các hành động liên quan tới giai đoạn kiểm thử: bao gồm các scope kiểm thử, kế hoạch, các tài nguyên để cung cấp cái nhìn high-level cho việc tiến hành kiểm thử.
 
-* Test scenario:
+* Test scenario/ strategy:
    * làm rõ các phương thức kiểm thử phần mềm sẽ được sử dụng để đưa ra các test case phù hợp. Ví dụ: xác định việc làm như thế nào mà người dùng có thể lạm dụng hệ thông và lên kế hoạch test đầu ra phù hợp.
 
 * Test report:
@@ -164,6 +171,12 @@ Tầm quan trọng của tài liệu cho các tester và việc kiểm tra:
  
 * Requirements:
    * là 1 bản mô tả đầy đủ các chức năng và tính năng của phần mềm được xây dựng để đảm bảo rằng tất cả các team nắm được thông tin đầy đủ về product.
+
+* NOTE: Software testers regularly need to refer to the following documents:
+   * Software Requirement Specifications - Thông số yêu cầu kĩ thuật/ phần mềm
+   * Functional documents - Tài liệu chức năng
+
+## V. what tool does s ST need study?
 
 
 
