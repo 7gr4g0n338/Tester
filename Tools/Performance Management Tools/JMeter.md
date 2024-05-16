@@ -4,11 +4,11 @@
 3. How to use JMeter?
 4. Output of JMeter.
 
-## 1. What is JMeter?
+## I. What is JMeter?
 JMeter là 1 phần mềm mô phỏng 1 nhóm người dùng gửi yêu cầu tới 1 máy chủ, trả về trạng thái thông tin của máy chủ thông qua các luồng graphic và tạo test report trong các format khác.<br/>
 ![image](https://github.com/7gr4g0n338/Tester/assets/95563870/c7128dbb-eb3f-498a-baa2-77123e4a3453)
 
-## 2. What is Element in JMeter?
+## II. What is Element in JMeter?
 ![image](https://github.com/7gr4g0n338/Tester/assets/95563870/e741cbbf-ad1c-4e5f-b37f-3dacf8cdfc56)
 
 * Thread Group
@@ -55,4 +55,69 @@ Hiển thị các kết quả của test execution ở những định dạng fo
   * Text:<br/>
   ![image](https://github.com/7gr4g0n338/Tester/assets/95563870/2b12bbdf-3316-476c-983e-ec8c2121e65f)
 
+## III. How to use JMeter?
+GUI của JMeter gồm 2 thành phần chính là Test plan - là nơi thêm/lưu trữ các thành phần được yêu cầu cho JMeter test  như requests, results, ...
+và Workbench - là nơi lưu trữ các thành phần test tạm thời, không liên quan gì tới test plan.<br/>
+![image](https://github.com/7gr4g0n338/Tester/assets/95563870/6ded060e-1529-44c3-b0fd-e4f4f8d8a15b)
+
+### 1. JMeter Performance Testing
+Performance Testing bao gồm 2 việc:<br/>
+![image](https://github.com/7gr4g0n338/Tester/assets/95563870/35fa47a1-a4dc-4177-b624-2d09cdaca4d9)
+
++ Load testing thực hiện mô phỏng nhiều truy cập của người dùng với lượng truy cập `mong đợi` - tải trọng mong muốn.
++ Stress testing thực hiện mô phỏng khả năng load tối đa mà server có thể xử lý được.
+
+### 2. Create a Performance Test Plan in JMeter
+
+Trước khi thực hiện kiểm tra hiệu năng của ứng dụng cần xác định:
++ Normal Load: số người dùng trung bình truy cập website
++ Heavy Load: số lượng tối đa người dùng truy cập
++ Mục đích test của ta là gì trong bài test này?<br/>
+![image](https://github.com/7gr4g0n338/Tester/assets/95563870/73384194-9a89-4e72-ae4b-814733f3790e)
+
+#### Add thread group
+Right click on the “Test Plan” and add a new thread group: Add -> Threads (Users) -> Thread Group <br/>
+![image](https://github.com/7gr4g0n338/Tester/assets/95563870/5365002e-3c45-421e-8598-109e6e31b209)
+
+In the Thread Group control panel, enter Thread Properties as follows:<br/>
+![image](https://github.com/7gr4g0n338/Tester/assets/95563870/efcdb6fb-e5b3-4709-9913-3556c4a36d7f)
+
+Number of Threads: 100 (Number of users connects to the target website: 100)<br/>
+Loop Count: 10 (Number of time to execute testing)<br/>
+Ramp-Up Period: 100<br/>
+
+Nếu có 100 user và Ramp-Up period là 100 thì thời gian delay giữa các người dùng liên tiếp là 100/100=1s.<br/>
+![image](https://github.com/7gr4g0n338/Tester/assets/95563870/3bab2477-b747-465d-86ef-b2b1243d202f)
+
+#### Add JMeter elements
+Ví dụ: Element là HTTP request default.<br/>
+![image](https://github.com/7gr4g0n338/Tester/assets/95563870/f81ede20-6639-45d3-9811-d16f66507757)
+![image](https://github.com/7gr4g0n338/Tester/assets/95563870/f4c8642f-ecf3-4d5e-8799-0d57fb0c770d)
+
+Add sampler HTTP Request:<br/>
+![image](https://github.com/7gr4g0n338/Tester/assets/95563870/15d7c4db-4fb4-49dc-a3d5-34173f52b36c)
+
+In HTTP Request Control Panel, the Path field indicates which URL request you want to send to Google server. ví dụ: if you enter “calendar” in Path field. JMeter will create the URL request http://www.google.com/calendar to Google server.<br/>
+![image](https://github.com/7gr4g0n338/Tester/assets/95563870/fc5902de-9a33-499d-9149-8783ce846179)
+
+#### Adding Graph result
+JMeter can show the test result in Graph format.
+Right click Test Plan, Add -> Listener -> Graph Results<br/>
+![image](https://github.com/7gr4g0n338/Tester/assets/95563870/aec69598-52e2-4ab5-8d49-cbce6c4e7fd5)
+
+#### Run Test and get the test result
+Nhấn nút run để chạy và kết quả trả về hiển thị trên Graph theo thời gian thực.
+
+Kết quả đồ thị được biểu diễn bởi 4 đường màu như sau:
+Black: The total number of current samples sent.
+Blue: The current average of all samples sent.
+Red: The current standard deviation.
+Green: Throughput rate that represents the number of requests per minute the server handled
+
+![image](https://github.com/7gr4g0n338/Tester/assets/95563870/577fc0d3-8a47-4eb2-9b06-e532b45c1281)
+
+Để phân tích hiệu năng của web server thì nên tập trung vào 2 tham số là throughput và deviation.
+
+throughput đại diện cho khả năng mà máy chủ xử lý tải nặng. throughput càng cao thì hiệu năng càng tốt.
+deviation là độ lệch, độ lệch càng nhỏ càng tốt.
 
