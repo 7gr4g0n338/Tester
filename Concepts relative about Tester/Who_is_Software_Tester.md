@@ -120,9 +120,9 @@ SDLC gồm 1 số phương thức phát triển như: Scrum, Kanban, Waterfall.
 
 Agile methodology là 1 phương thức quản lí dự án nhằm chia các bước nhỏ hơn nhằm thúc đẩy sự linh hoạt và hợp tác trong kiểm tra phần mềm.
 các công cụ Agile testing:
-+ Selenium web driver
++ Selenium web driver for automation
 + JunoOne
-+ JIRA
++ JIRA for bug tracking
 + Appium
 
 ### 5. Analytical Skills Critical 
@@ -176,12 +176,66 @@ Tầm quan trọng của tài liệu cho các tester và việc kiểm tra:
    * Software Requirement Specifications - Thông số yêu cầu kĩ thuật/ phần mềm
    * Functional documents - Tài liệu chức năng
 
-## V. what tool does s ST need study?
+## V. what tools does s ST need study?
 
+All tools which a Software Tester need include:
+* Test Management Tools
+* Automation Tools
+* Performance Testing Tools
+* Security Testing Tools
+* Code Review Tools
+* Debugging Tools
 
+ ### 1. Test Management Tools
+ => Mục đích của tool này là cho phép tạo các test cases, theo dõi các kết quả test, quản lí các khiếm khuyết, tạo các chỉ số và ghi lại quá trình test.
+ 1 số công cụ phổ biến như:
+ * Jira
+ * TestRail
+ * Zephyr
+Các công cụ này có thể tích hợp với các công cụ khác để theo dõi bug, automation, kiểm soát version và tạo các luồng kiểm tra.
+
+### 2. Automation Tools
+=> Mục đích cho phép tự động 1 số hoặc tất cả các task đang kiểm thử như functional, regression(hồi quy), performance and load testing. Cho phép tạo các scripts hoặc các kịch bản mà mô phỏng user actions, inputs, outputs và thực thi lặp lại và nhất quán.
+1 số công cụ phổ biến:
+* Selenium
+* Appium
+* Cypress
+* Postman
+Các công cụ này hỗ trợ nhiều ngôn ngữ, platforms và browsers mà có thể tích hợp với các công cụ khác như test management, reporting và CI/CD systems.
+
+### 3. Performance Testing Tools
+=> Mục đích cho phép đo lường và đánh giá hiệu năng của phần mềm bằng các trọng tải khác nhau, điều kiện và kịch bản khác nhau. Cho phép Tester tạo và mô phỏng người dùng hiện tại, các yêu cầu, các giao dịch và cho phép giám sát sát, phân tích nhiều chỉ số hiệu năng như thời gian phản hồi, thông lượng, độ trễ và tối ưu tài nguyên.
+1 số công cụ phổ biến:
+* JMeter
+* LoadRunner
+* Gatling
+
+### 4. Security Testing Tools
+=> Mục đích thực hiện nhiều loại kiểm tra bảo mật như scan lỗ hỏng, kiểm thử thâm nhập, phân tích code. Giúp phát hiện và khai thác các khiếm khuyết về bảo mật.
+1 số công cụ phổ biến:
+* Nmap
+* Burp Suite
+* OWASP ZAP
+* Metasploit
+
+### 5. Code Review Tools
+=> Mục đích đánh giá và nâng cao chất lượng mã nguồn, cho phép kiểm tra, comment, đề xuất các thay đổi mã nguồn đảm bảo theo các quy chuẩn. Giúp xác định các đoạn mã nguồn bị lỗi, bugs, lỗ hỏng.
+1 số công cụ phổ biến:
+* GitHub
+* GitLab
+* Bitbucket
+* CodeGuru
+
+### 6. Debugging Tools
+=> Mục đích: Tìm và fix errors, bugs và các khiếm khuyết trong mã nguồn. Cho phép thực thi từng bước step by step, thiết lập các điểm breakpoints, xem các biến và kiểm tra trạng thái của chương trình. Chúng cũng cho phép trace, log và phân tích các hành vi code, hiệu năng và đầu ra.
+1 số công cụ phổ biến:
+* Visual Studio Code
+* Eclipse
+* PyCharm
+* Chrome DevTools
 
 ## Some advices of experience ST:
 + build good relationship with developer to aske them: họ đang cố gắng làm gì, hiểu các bước và đặt thêm cho họ các câu hỏi => giúp fix bug 1 cách nhanh chóng.
 + xây dựng 1 sở thích chung để upgrade mối quan hệ, từ đó có sự tin tưởng và gắn kết trong cả công việc và cuộc sống.
 
-  
+
